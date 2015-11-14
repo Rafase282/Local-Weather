@@ -51,3 +51,8 @@ body {
 p{
   font-size: 150%;
 }
+
+.icon {
+  width: 25%;
+  height: 25%;
+}
