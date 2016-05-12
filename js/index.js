@@ -1,10 +1,10 @@
 // Setup and get geolocation from the browser.
 var units = 'imperial';
 var imgs = [
-  'url("http://i.imgur.com/eI5KLUW.jpg")',
-  'url("http://i.imgur.com/rG0P1ro.jpg")',
-  'url("http://i.imgur.com/voCuONs.jpg")',
-  'url("http://i.imgur.com/5tFHSKa.jpg")',
+  'url("https://i.imgur.com/eI5KLUW.jpg")',
+  'url("https://i.imgur.com/rG0P1ro.jpg")',
+  'url("https://i.imgur.com/voCuONs.jpg")',
+  'url("https://i.imgur.com/5tFHSKa.jpg")',
 ];
 var Coordinates = function(lat, lon) {
   this.latitude = lat;
@@ -55,7 +55,7 @@ function getWeather(data) {
   var city = data.name;
 
   // Create custom HTML to display all the information gathered.
-  var html = '<img src="http://openweathermap.org/img/w/' + code +
+  var html = '<img src="https://openweathermap.org/img/w/' + code +
     '.png" alt="Weather Icon" class="icon">' + '<p> ' + Math.round(temp) + ' ' + tempUnit +
     ', ' + description + '<br> Wind Speed: ' + wspeed + windUnit + '</p><p>' +
     city + '</p>';
