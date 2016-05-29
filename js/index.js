@@ -1,10 +1,10 @@
 // Setup and get geolocation from the browser.
 var units = 'imperial';
 var imgs = [
-  'url("https://i.imgur.com/eI5KLUW.jpg")',
-  'url("https://i.imgur.com/rG0P1ro.jpg")',
-  'url("https://i.imgur.com/voCuONs.jpg")',
-  'url("https://i.imgur.com/5tFHSKa.jpg")',
+  'url("imgs/superhot.jpg")',
+  'url("imgs/hot.jpg")',
+  'url("imgs/cold.jpg")',
+  'url("imgs/freezing.jpg")',
 ];
 var Coordinates = function(lat, lon) {
   this.latitude = lat;
