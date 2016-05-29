@@ -33,7 +33,7 @@ function showPosition(position) {
 function getURL(lat, lon, units) {
   // Generates custom URL, the appid is unique for this app.
   var appid = '16c3de9108ed16c9179c1c51008b687e';
-  return 'http://api.openweathermap.org/data/2.5/weather?lat=' + lat +
+  return 'https://api.openweathermap.org/data/2.5/weather?lat=' + lat +
     '&lon=' +
     lon + '&units=' + units + '&appid=' + appid;
 };
